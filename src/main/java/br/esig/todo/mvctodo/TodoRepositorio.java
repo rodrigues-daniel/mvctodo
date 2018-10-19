@@ -2,12 +2,10 @@ package br.esig.todo.mvctodo;
 
 import java.util.List;
 
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-import br.esig.todo.models.TodoModel;
+import br.esig.todo.mvctodo.TodoModel;
 
-public interface TodoRepositorio extends CrudRepository <TodoModel,Long> {
+public interface TodoRepositorio extends JpaRepository <TodoModel,Long> {
 	
-	List<TodoModel> findByPosicao(int posicao);
-
-}
+	 }
