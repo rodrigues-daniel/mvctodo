@@ -1,3 +1,0 @@
-
-
-alert("ola mundo novamente!");
