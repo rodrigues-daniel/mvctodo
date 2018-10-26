@@ -23,9 +23,11 @@ class App extends Component {
       <div className="container">  
         <div className="row">
           <div className="col-md-7 mx-auto">
-              <h1 className="text-center">MVC Todo</h1>
+              <h1 className="text-center">MVC Todo</h1> 
+
                 <div class="card">
                    <div class="card-body">
+                       
                 
                       <Lista  itens={this.state.todoModels} />
 

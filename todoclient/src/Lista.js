@@ -41,11 +41,7 @@ class Lista extends Component{
           <table className="table">
 
               <tr>
-                  <td>Marcador</td>
-                  <td>
-                      <input type="text"></input>
-                  </td>
-                  <td></td>
+                  <td>Marcador</td>                 
               </tr>
 
               {this.props.itens.map(item =>(

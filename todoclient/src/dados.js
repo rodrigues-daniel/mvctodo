@@ -38,6 +38,18 @@ var dados =  {
         "href" : "http://localhost:8080/api/todoModels/1"
       }
     }
+  },{
+    "marcado" : false,
+    "vazio" : false,
+    "texto" : "novo teste!",
+    "_links" : {
+      "self" : {
+        "href" : "http://localhost:8080/api/todoModels/1"
+      },
+      "todoModel" : {
+        "href" : "http://localhost:8080/api/todoModels/1"
+      }
+    }
   }] }}    
 
 
