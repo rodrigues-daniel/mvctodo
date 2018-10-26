@@ -36,16 +36,33 @@ class Lista extends Component{
    render(){
 
       return (    
-          <ul>
+
+          
+          <table className="table">
+
+              <tr>
+                  <td>Marcador</td>
+                  <td>
+                      <input type="text"></input>
+                  </td>
+                  <td></td>
+              </tr>
 
               {this.props.itens.map(item =>(
 
-                  <li key={item.id}>{item.texto}</li>
+                  <tr>
 
+                  <td>CheckBox</td>
+                  <td key={item.id}>{item.texto}</td>
+                  <td>Excluir</td>
+
+                  </tr>
 
               ))}
 
-          </ul>
+          
+
+          </table>
   
          )
     }   
