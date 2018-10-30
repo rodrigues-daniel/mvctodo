@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class TodoController {
 
-	@GetMapping("/home")
+	@GetMapping("/react")
 	public String home() {
-		return "/todoclient/public/index";
+		return "index";
 	}
 
 }
