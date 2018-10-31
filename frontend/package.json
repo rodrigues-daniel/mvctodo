@@ -1,14 +1,13 @@
 {
-  "name": "frontend",
-  "version": "1.0.0",
-  "description": "\"app demo\"",
-  "main": "index.js",
+  "name" : "frontend",
+  "version":"1.0.0",  
   "private": "yes",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production",
     "build-dev": "webpack --mode development && cp -R  ./dest/static  ~/repo/mvctodo/src/main/resources/public && cp -R  ./dest/index.html  ~/repo/mvctodo/src/main/resources/templates",
-    "clear": "rm -Rf  ./dest/*  && rm -Rf ~/repo/mvctodo/src/main/resources/public/* &&  rm ~/repo/mvctodo/src/main/resources/templates/*"
+    "clear": "rm -Rf  ./dest/*  && rm -Rf ~/repo/mvctodo/src/main/resources/public/* &&  rm ~/repo/mvctodo/src/main/resources/templates/*",
+    "css": "scss ./src/estilo.scss  ./dest/estilo.css"
   },
   "author": "Daniel Rodrigues",
   "license": "ISC",
